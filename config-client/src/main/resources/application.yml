@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8881
 spring:
   application:
     name: config-client
@@ -8,10 +8,11 @@ spring:
 #      uri: http://CONFIG-SERVER # /foo/development
       discovery:
         enabled: true
-        serviceId: CONFIG-SERVER
+        serviceId: config-server
       lable: master
       profile: dev
 #      profiles: development
+      name: user, config-client
 eureka:
   client:
     serviceUrl:

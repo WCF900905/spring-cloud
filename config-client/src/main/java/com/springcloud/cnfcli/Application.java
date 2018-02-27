@@ -14,7 +14,7 @@ public class Application {
 
     @Value("${foo}")
     String foo;
-//    @Value("${spring.rabbitmq.port}")
+    @Value("${spring.rabbitmq.port}")
     String port;
     @RequestMapping("/")
     public String home() {
