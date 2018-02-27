@@ -1,5 +1,7 @@
-server:
-  port: 8881
+
+
+#server:
+#  port: 8881
 spring:
   application:
     name: config-client
@@ -12,8 +14,9 @@ spring:
       lable: master
       profile: dev
 #      profiles: development
-      name: user, config-client
+      name: app-other, application
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+

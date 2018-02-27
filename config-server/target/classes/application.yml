@@ -14,7 +14,9 @@ spring:
       server:
         git:
 #          uri: https://github.com/spring-cloud-samples/config-repo
-#          uri: https://github.com/WCF900905/springcloud-cnf/
-          uri: https://github.com/forezp/SpringcloudConfig/
-          searchPaths: respo
+          uri: https://github.com/WCF900905/springcloud-cnf/
+#          uri: https://github.com/forezp/SpringcloudConfig/
+          searchPaths: repo
           label: master
+          username: wuchengfeiss@126.com
+          password: a64630147
