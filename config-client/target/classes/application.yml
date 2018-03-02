@@ -12,7 +12,7 @@ spring:
         enabled: true
         serviceId: config-server
       lable: master
-      profile: dev
+      profile: test
 #      profiles: development
       name: app-other, application
 eureka:
