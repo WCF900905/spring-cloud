@@ -1,0 +1,15 @@
+spring:
+  application: eureka-server
+
+server:
+  port: 9002
+eureka:
+  instance:
+    hostname: eureka-server2
+  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:9001/eureka
+      defaultZone: http://eureka-server1:9001/eureka/
+debug: false
